@@ -20,3 +20,10 @@
   --color-primary-900: #a5371b;
 }
 
+.search-bar-home {
+  margin-top: 2rem;
+  text-align: center;
+  margin-left: 24rem;
+  margin-right: 24rem;
+  margin-bottom: 2rem;
+}
