@@ -1,6 +1,6 @@
 <script lang="ts">
   import "../app.css";
-  import favicon from "#lib/assets/favicon.svg";
+  import logo from "#lib/assets/Euresis_logo.png";
   import type { LayoutProps } from "./$types";
   import {
     Footer,
@@ -22,12 +22,12 @@
 </script>
 
 <svelte:head>
-  <link rel="icon" href={favicon} />
+  <link rel="icon" href={logo} />
 </svelte:head>
 
 <Navbar>
   <NavBrand href="/">
-    <img src={favicon} class="me-3 h-6 sm:h-9" alt="Appe Logo" />
+    <img src={logo} class="me-3 h-6 sm:h-9" alt="App Logo" />
     <span
       class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"
       >Euresis</span

@@ -27,3 +27,19 @@
   margin-right: 24rem;
   margin-bottom: 2rem;
 }
+
+.home-text {
+  margin-bottom: 2rem;
+}
+
+
+.login-form {
+  margin-top: 2rem;
+  margin-left: 24rem;
+  margin-right: 24rem;
+  margin-bottom: 2rem;
+}
+
+.login-form-title {
+  text-align: center;
+}
