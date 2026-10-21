@@ -2,7 +2,9 @@
   import { Search, Button, Card } from "flowbite-svelte";
   import { HeartSolid } from "flowbite-svelte-icons";
 
-  let { data } = $props();
+  import type { PageProps } from "./$types";
+ 
+  let { data }: PageProps = $props();
 </script>
 
 <div class="search-bar-home">
